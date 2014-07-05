@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/jonathanmarvens/turing-machine",
+	"GoVersion": "go1.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Rev": "bb9189510af1"
+		}
+	]
+}

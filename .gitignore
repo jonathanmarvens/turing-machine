@@ -1,0 +1,8 @@
+*.a
+*.bak
+*.dSYM
+*.o
+*.sw*
+*.test
+*~
+/.bin
