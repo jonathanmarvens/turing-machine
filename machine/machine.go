@@ -134,11 +134,10 @@ func (self *Machine) nextTrans() {
 		if err != nil {
 			log.Print(err)
 		}
-		_, err = fmt.Print("Tape: ")
+		_, err = fmt.Print("Tape: ", self.tape)
 		if err != nil {
 			log.Print(err)
 		}
-		fmt.Println(self.tape)
 		return
 	}
 	self.conf.SetCurrState(nextTrans.state)
